@@ -215,8 +215,7 @@ function Contents() {
         <CardHeader>
     <Heading size='md'>Links</Heading>
   </CardHeader>
-
-  <CardBody>-
+  <CardBody>
     <Stack divider={<StackDivider />} spacing='4'>
       <Box>
         <Heading size='xs' textTransform='uppercase'>
