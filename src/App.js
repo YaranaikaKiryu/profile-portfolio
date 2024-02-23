@@ -6,12 +6,28 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import { Tag } from '@chakra-ui/react'
 import { Flex } from "@chakra-ui/react";
 import {useColorMode} from "@chakra-ui/react"
-
+import { Progress } from '@chakra-ui/react'
+import { AbsoluteCenter } from '@chakra-ui/react'
+import {
+  ListItem,
+  UnorderedList,
+} from '@chakra-ui/react'
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  TableCaption,
+  TableContainer,
+} from '@chakra-ui/react'
 
 function Profile() {
   return (
     <Box
-    backgroundImage="url('https://i.redd.it/o7gcthh450q11.png')"
+    backgroundImage="url('https://wallpapercosmos.com/w/full/a/7/e/116685-3840x2160-desktop-4k-firewatch-wallpaper.jpg')"
     backgroundRepeat="no-repeat"
     backgroundSize="cover"
    color= "white"
@@ -84,6 +100,7 @@ function Contents() {
           I am Yaranaika Kiryu, a Mental Breakdown Specialist. I am a fan of technology, music, and anime. I’m also interested in gaming and studying.
           I am currently Studying Python and Java for my chosen Course. I am also a collector of rare items and a traveler.
         </Text>
+        
                 <HStack spacing={5} mt={3}>
                   {['sm'].map((size) => ( 
                     <Tag size={size} key={size} variant='solid' colorScheme='teal'>
@@ -116,18 +133,12 @@ function Contents() {
                     </Tag>
                   ))}
                 </HStack>
-                
               </Box>
             </Stack>
           </CardBody>
         </Card>
-
-
-
-
-
         <Box display={{ base: 'none', lg: 'block' }} width='26px'/>
-        <Card marginTop='4' direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' maxW="850px" height='250px' boxShadow='2xl'>
+        <Card marginTop='4' direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' maxW="850px" height='285px' boxShadow='2xl'>
   <Stack>
     <CardBody height='200px' overflow='auto'>
       <Heading size='md'>Support Mark Louis Cadiente</Heading>
@@ -136,11 +147,13 @@ function Contents() {
       Whether it's a one-time donation or a recurring contribution, every bit helps. 
       Thank you for being a part of our community and for your generous support.
       </Text>
+      <Button >
+        Support Me!
+      </Button>
     </CardBody>
     <CardFooter>
-      
     <Button onClick={toggleColorMode}>
-        Click Here {colorMode === "light"}
+        Click Me! If it is too bright {colorMode === "light"}
       </Button>
     </CardFooter>
   </Stack>
@@ -187,11 +200,11 @@ function Contents() {
         </Card>
       </Flex>
 
-<Card marginTop='4' direction={{ base: 'column', sm: 'row' }}maxW="850px" height='1590px' backgroundColor='transparent' outline='none' boxShadow='none'>
+<Card marginTop='4' direction={{ base: 'column', sm: 'row' }}maxW="850px" height='1600px' backgroundColor='transparent' outline='none' boxShadow='none'>
 
   <Stack>
     <CardBody height='200px' overflow='auto'>
-        <Card marginTop='4' direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' maxW="850px" height='500px' boxShadow='2xl'>
+        <Card marginTop='4' direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' maxW="850px" height='510px' boxShadow='2xl'>
   <Stack>
     <CardBody height='200px' overflow='auto'>
       <Heading size='lg'>More About Mark</Heading>
@@ -203,7 +216,7 @@ function Contents() {
     <Heading size='md'>Links</Heading>
   </CardHeader>
 
-  <CardBody>
+  <CardBody>-
     <Stack divider={<StackDivider />} spacing='4'>
       <Box>
         <Heading size='xs' textTransform='uppercase'>
@@ -236,39 +249,100 @@ function Contents() {
   </Stack>
 </Card>
 
-<Card marginTop='4' direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline' maxW="850px" height='680px' boxShadow='2xl'>
+<Card marginTop='4' overflow='hidden' variant='outline' maxW="950px" height='950px' boxShadow='2xl'>
   <Stack>
     <CardBody height='200px' overflow='auto'>
-      <Heading size='md'>Support Yaranaika Kiryu</Heading>
+      <Heading size='lg'>My Skills And Education</Heading>
       <Text py='2'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </Text>
-      <Image
+  <Divider orientation='horizontal' />
+  LANGUAGE
+  <Stack spacing={5}>
+    <Progress colorScheme='green' height='32px' value={50} width='100%' />
+  </Stack>
+</Text>
+<Text py='2'>
+  <Divider orientation='horizontal' />
+  PROGRAMMING SKILLS
+  <Stack spacing={5}>
+    <Progress colorScheme='green' height='32px' value={53} width='100%' />
+  </Stack>
+  <Divider orientation='horizontal' />
+</Text>
+<Text py='2'>
+  <Divider orientation='horizontal' />
+  COMMUNICATION SKILLS
+  <Stack spacing={5}>
+    <Progress colorScheme='green' height='32px' value={52} width='100%' />
+  </Stack>
+  <Divider orientation='horizontal' />
+</Text>
+<Divider orientation='horizontal' />
+<Text py='2'>
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </Text>
+        <Box position='relative' padding='10'>
+  <Divider />
+  <AbsoluteCenter>
+   <Text size='lg'>MORE SKILLS</Text> 
+  </AbsoluteCenter>
+</Box>
+<UnorderedList>
+  <ListItem>Can Work Under pressure</ListItem>
+  <ListItem>Can Collaborate with others if nessesary</ListItem>
+  <ListItem>Fast Learner</ListItem>
+  <ListItem>Can Solve Problems with Ease</ListItem>
+</UnorderedList>
+<Box position='relative' padding='10'>
+  <Divider />
+  <AbsoluteCenter>
+   <Text size='lg'>EDUCATION</Text> 
+  </AbsoluteCenter>
+</Box>
+<TableContainer>
+  <Table variant='striped' colorScheme='teal'>
+    <TableCaption>SCHOOLS ATTENDED, STARTED AND GRADUATED YEAR</TableCaption>
+    <Thead>
+      <Tr>
+        <Th>SCHOOL ATTENDED</Th>
+        <Th>YEAR STARTED</Th>
+        <Th>YEAR GRADUATED</Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr>
+        <Td>FYAS and Don Bosco Tarlac (Elementary)</Td>
+        <Td>2011</Td>
+        <Td>2017</Td>
+      </Tr>
+      <Tr>
+        <Td>Don Bosco Technical Institute Junior High School</Td>
+        <Td>2017</Td>
+        <Td>2021</Td>
+      </Tr>
+      <Tr>
+        <Td>Don Bosco Technical Institute Senior High School</Td>
+        <Td>2021</Td>
+        <Td>2023</Td>
+      </Tr>
+    </Tbody>
+    <Tfoot>
+    </Tfoot>
+  </Table>
+</TableContainer>
+  {/*     <Image
     objectFit='cover'
     src='https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
     alt='Chakra UI'
-  />
+  /> */}
     </CardBody>
   </Stack>
 </Card>
-
-
-
-
-
-
-
-
-
-
-
-  
     </CardBody>
   </Stack>
 </Card>
-
       </Flex>
     </Container>
          
