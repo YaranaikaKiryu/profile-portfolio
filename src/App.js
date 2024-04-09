@@ -169,31 +169,31 @@ function Contents() {
           <CardBody>
           <SimpleGrid columns={3} spacing={5}>
   <Box  height='160px'>
-    <Image src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/358681464_1303232810312225_1908921387589452808_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHvUL8PynTcrkxdKdLI8JB92cSXwTxOLGzZxJfBPE4sbLqhlKdrgDJJ0CeACAxP4GQrqVNRvvieLezfHN2FiJyf&_nc_ohc=SePls4RiLkMAX_EPWlc&_nc_ht=scontent.fmnl4-3.fna&oh=00_AfDJVSJVlYHL4DSZQpY6GCqnWj0NEOgcr3DPulG7Iqa-Gg&oe=65DC4130" alt="Sample image 1" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1177600317207089162/377284017_1297810257580153_6686563186799435815_n.png?ex=66227042&is=660ffb42&hm=439bf912ec2d25bb2067a2b18111e21975d67046a244f08a03b973c78d2281f9&=&format=webp&quality=lossless&width=901&height=676" alt="Sample image 1" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://media.discordapp.net/attachments/687923095159308426/1168735097697091737/20231031_101550.jpg?ex=65e68061&is=65d40b61&hm=4dab838f9b011de8fcd1fec958950c5123b7352a0a6787cdb5d5a5f560b2eec4&=&format=webp&width=313&height=676" alt="Sample image 2" boxSize="150px" />
+    <Image src="https://images-ext-1.discordapp.net/external/NMEbY6W_Vp8ppQ98RYsOH57NyXWtjEBdIijfe7SjKf8/%3Furl%3Dhttps%253A%252F%252Ftr.rbxcdn.com%252F84476f3ec772872f6e1c4751dea5bd2a%252F420%252F420%252FImage%252FPng%26backup%3Dhttps%253A%252F%252Fencrypted-tbn0.gstatic.com%252Fimages%253Fq%253Dtbn%253AANd9GcQvRcYgwrgq9bn6uFcseT7_p-Cigjj8Z4YuNVG9p8M8aRGqPfWknWrXaepA2iUBCj5mWAA%2526usqp%253DCAU/https/proxy.notsobot.com/google-images?format=webp" alt="Sample image 2" boxSize="150px" />
   </Box>
   <Box  height='160px'>
     <Image src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=680" alt="Sample image 3" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://cdn.discordapp.com/attachments/687923095159308426/1209841291370831892/280bed666ef01880e9fd2423f6227a1f_4315930060208472198.png?ex=65e86381&is=65d5ee81&hm=dc5a9fe144f8f6ff44eedcbd5df62f16434cb4aec2c03dbc6c0464344fc8b704&" alt="Sample image 4" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1177848662865490010/20231125_134948.jpg?ex=6623578c&is=6610e28c&hm=42ddf7c95f2b16008715c051d9da8828f1d8ffe4b7246ac590739bd0f67293dd&=&format=webp&width=380&height=676" alt="Sample image 4" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://preview.redd.it/exactly-17-hours-ago-ichiban-kasuga-turned-46-years-old-v0-sd0p16frjf9a1.png?auto=webp&s=860c482da9428f011d591d59df7b255c4ec3b915" alt="Sample image 5" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1177907511744008202/F_uClHhbMAAOCMe.png?ex=66238e5b&is=6611195b&hm=5aac35c5bb4495f85068d7622b4cd8a6c8dfebbe8b76a2f3972509b0bd3fade3&=&format=webp&quality=lossless&width=350&height=350" alt="Sample image 5" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://media.discordapp.net/attachments/687923095159308426/1207931809053282397/fkgxLXZiWzlSJmZe_zMH4EzWM2sN0hvjfMcQffh6L-bO8csikzvqBCb8G4Cjq1qiPwIiGTfod4RPVgs640-nd-v1.png?ex=65e17129&is=65cefc29&hm=5a52bbee76126ba4f5c4e24d757423b84c18cde1c98d09188505137b3e16c555&=&format=webp&quality=lossless" alt="Sample image 6" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1178313395385143356/RDT_20231126_1503242402877107830640370.jpg?ex=6625085d&is=6612935d&hm=502f5f5beadbbe24907fa019d96ae4e2a7416a453f438616028c261cb2b29330&=&format=webp&width=476&height=350" alt="Sample image 6" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://media.discordapp.net/attachments/687923095159308426/1161931651568373831/20231012_154117.jpg?ex=65e0352d&is=65cdc02d&hm=e85c146f74b696921bc65682d7453494031411ae72c47dbd7644ea9f85a7892f&=&format=webp&width=313&height=676" alt="Sample image 7" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1178402998607687750/image.png?ex=66255bd0&is=6612e6d0&hm=b860f25e69ae54cd449199b4249432b459bd5886740e50f5a3b4e50d4ba6517b&=&format=webp&quality=lossless&width=356&height=350" alt="Sample image 7" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://media.discordapp.net/attachments/687923095159308426/1163164255722422312/image.png?ex=65e4b121&is=65d23c21&hm=0ae3e925a2967db0badf90233af13ae16d9200e63ec0a5fcd4c86b37d89b1fbf&=&format=webp&quality=lossless&width=898&height=676" alt="Sample image 8" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1178620843178340372/FB_IMG_1701027771341.jpg?ex=662626b2&is=6613b1b2&hm=c09097b5c485c7e080f51d799bc00b98c3081b416c26a5c52966e43e683f32fd&=&format=webp" alt="Sample image 8" boxSize="150px" />
   </Box>
   <Box  height='160px'>
-    <Image src="https://media.discordapp.net/attachments/687923095159308426/1209336141476663356/rn_image_picker_lib_temp_691e94c4-d810-4b03-bd41-9f850505f993.jpg?ex=65e68d0c&is=65d4180c&hm=cd01bb47ec8849176db3580b84abfce6cc87f48db5f0cbd880468e2e37bcb774&=&format=webp&width=1440&height=666" alt="Sample image 9" boxSize="150px" />
+    <Image src="https://media.discordapp.net/attachments/687923095159308426/1178959184226701372/FB_IMG_1701078619063.jpg?ex=661e274d&is=660bb24d&hm=6ff454b92598f723a80239543c0624ad0bb45f03aca78b416926ff347aed767e&=&format=webp" alt="Sample image 9" boxSize="150px" />
   </Box>
 </SimpleGrid>
           </CardBody>
